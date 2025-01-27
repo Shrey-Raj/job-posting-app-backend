@@ -1,0 +1,5753 @@
+[
+  {
+    "crop_name": "Wheat",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1827,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1277,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 342,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 207,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Wheat flour",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1849,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1292,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 347,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 210,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Wheat bread",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1608,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1124,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 301,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 183,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Dry pasta",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1849,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1292,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 347,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 210,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Wheat pellets",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2036,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1423,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 382,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 231,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Wheat, starch",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1436,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1004,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 269,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 163,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Wheat gluten",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4189,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2928,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 785,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 476,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 900,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Crown Root Initiation (21-25 days)",
+        "Tillering (40-45 days)",
+        "Jointing (60-65 days)",
+        "Flowering (80-85 days)",
+        "Grain Filling (100-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Rice, paddy",
+    "country": "India",
+    "growing_season": "Kharif (Monsoon)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1673,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1146,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 341,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 187,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 6000,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 2,
+        "total_irrigations": 8,
+        "water_per_irrigation": {
+          "value": 750,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Nursery Stage (10-15 days)",
+        "Tillering Stage (25-35 days)",
+        "Panicle Initiation (45-55 days)",
+        "Flowering Stage (65-75 days)",
+        "Grain Filling (85-95 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 1200,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 250,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 300,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 350,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 200,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Barley",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1423,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1213,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 79,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 131,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 3500,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 5,
+        "water_per_irrigation": {
+          "value": 700,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Germination (10-15 days)",
+        "Tillering (25-35 days)",
+        "Stem Elongation (45-55 days)",
+        "Heading (65-75 days)",
+        "Grain Filling (85-95 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 450,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Maize (corn)",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1222,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 947,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 81,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 194,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 4000,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 6,
+        "water_per_irrigation": {
+          "value": 666,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "V6-V8 Stage (25-35 days)",
+        "Tasseling Stage (45-55 days)",
+        "Silking Stage (55-65 days)",
+        "Grain Filling (70-85 days)",
+        "Maturation (90-105 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 550,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 75,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 150,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 125,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Rye",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1544,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1419,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 25,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 99,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    },
+    "irrigation_requirements": {
+      "total_water_required": {
+        "value": 3200,
+        "unit": "cubic meters/hectare/season"
+      },
+      "irrigation_frequency": {
+        "times_per_week": 1,
+        "total_irrigations": 4,
+        "water_per_irrigation": {
+          "value": 800,
+          "unit": "cubic meters/hectare"
+        }
+      },
+      "critical_irrigation_stages": [
+        "Germination (10-15 days)",
+        "Tillering (30-40 days)",
+        "Stem Elongation (50-60 days)",
+        "Booting Stage (65-75 days)",
+        "Grain Filling (85-95 days)"
+      ]
+    },
+    "water_requirement_by_growth_stage": {
+      "total_seasonal_requirement": {
+        "value": 400,
+        "unit": "mm"
+      },
+      "stage_wise_requirement": {
+        "germination": {
+          "value": 50,
+          "unit": "mm"
+        },
+        "crown_root_initiation": {
+          "value": 75,
+          "unit": "mm"
+        },
+        "tillering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "flowering": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "grain_filling": {
+          "value": 75,
+          "unit": "mm"
+        }
+      }
+    }
+  },
+  {
+    "crop_name": "Oats",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1788,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1479,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 181,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 128,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Oat groats and meal",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2536,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2098,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 257,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 182,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Oats, rolled or flaked grains",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2416,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1998,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 245,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 173,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Millet",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4478,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4306,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 57,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 115,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sorghum",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3048,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2857,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 103,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 87,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Buckwheat",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3142,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2769,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 144,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 229,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Potatoes",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 287,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 191,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 33,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 63,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tapioca of potatoes",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1436,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 955,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 165,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 317,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Potato flour and meal",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1436,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 955,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 165,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 317,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Potato flakes",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1044,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 694,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 120,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 230,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Potato starch",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1512,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1005,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 173,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 333,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sweet potatoes",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 383,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 324,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 5,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 53,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Manioc (cassava)",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 564,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 550,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 13,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tapioca of cassava",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2818,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2750,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 66,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Flour of cassava",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1878,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1833,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 44,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Dried cassava",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1610,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1571,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 38,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Manioc (cassava) starch",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2254,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2200,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 53,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Taro (coco yam)",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 606,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 587,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 3,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 15,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Yams",
+    "country": "India",
+    "growing_season": "Kharif (Summer)",
+    "crop_duration_days": 90,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 343,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 139,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 25,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 63,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sugar cane",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 210,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 139,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 57,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 13,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Raw sugar, cane",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1666,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1107,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 455,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 104,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Refined sugar",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1782,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1184,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 487,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 111,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Fructose, chemically pure",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1782,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1184,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 487,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 111,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cane molasses",
+    "country": "India",
+    "growing_season": "Rabi (Winter)",
+    "crop_duration_days": 120,
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 527,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 350,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 144,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 33,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sugar beet",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 132,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 82,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 26,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 25,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Raw sugar, beet",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 865,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 535,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 167,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 162,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Beans, dry",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5053,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3945,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 125,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 983,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Broad beans, horse beans, dry",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2018,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1317,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 205,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 496,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Peas, dry",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1979,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1453,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 33,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 493,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Chick peas",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4177,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2972,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 224,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 981,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cow peas, dry",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 6906,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6841,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 10,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 55,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Pigeon peas",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5494,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4739,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 72,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 683,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Lentils",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5874,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4324,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 489,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1060,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cashew nuts",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 14218,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 12853,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 921,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 444,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Chestnuts",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2750,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2432,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 174,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 144,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Almonds, with shell",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 8047,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4632,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1908,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1507,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Almonds, shelled or peeled",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 16095,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 9264,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 3816,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 3015,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Walnuts, with shell",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4918,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2805,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1299,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 814,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Walnuts, shelled or peeled",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9280,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5293,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2451,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1536,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Pistachios",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 11363,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3095,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 7602,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 666,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Kola nuts",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 23391,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 23345,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 26,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 19,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Hazelnuts, with shell",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5258,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3813,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1090,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 354,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Hazelnuts, shelled or peeled",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 10515,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 7627,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2180,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 709,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Areca nuts",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 11165,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 10621,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 139,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 406,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soya beans",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2145,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2037,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 70,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 37,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soya sauce",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 613,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 582,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 20,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 11,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soya paste",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 572,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 543,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 19,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 10,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soya curd",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2523,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2397,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 83,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 44,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soy milk",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3763,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3574,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 123,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 65,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soya bean flour and meals",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2523,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2397,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 83,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 44,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soybean oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4190,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3980,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 137,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 73,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Soybean oilcake",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1779,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1690,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 58,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 31,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Groundnuts in shell",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2782,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2469,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 150,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 163,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Groundnuts shelled",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3974,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3526,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 214,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 234,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Groundnut oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 7529,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6681,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 405,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 442,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Groundnut oilcake",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1484,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1317,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 80,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 87,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Coconuts",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2687,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2669,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 16,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Copra",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2093,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2079,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 12,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coconut (husked)",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1256,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1247,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 7,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coconut (copra) oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4490,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4461,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 3,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 27,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coconut/copra oilcake",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 834,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 829,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 5,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coconut (coir) fibre, processed",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2449,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2433,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 15,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Oil palm",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1098,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1057,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 40,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Palm nuts and kernels",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2868,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2762,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 105,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Palm oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4971,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4787,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 182,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Palm kernel/babassu oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5401,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5202,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 198,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Palm nut/kernel oilcake",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 833,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 802,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 31,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Olives",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3015,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2470,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 499,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 45,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Olive oil, virgin",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 14431,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 11826,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2388,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 217,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Olive oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 14726,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 12067,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2437,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 221,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Castor oil seeds",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9896,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 8423,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1175,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 298,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Castor oil",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 24740,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 21058,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2938,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 744,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sunflower seeds",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3366,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3017,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 148,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 201,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sunflower seed oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 6792,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6088,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 299,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 405,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sunflower seed oilcake",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1356,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1215,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 60,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 81,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Rapeseed",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2271,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1703,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 231,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 336,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Rape oil, refined",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4301,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3226,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 438,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 636,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Rape seed oilcake",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1115,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 837,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 114,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 165,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Safflower seeds",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 7221,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6000,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 938,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 283,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sesame seed",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9371,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 8460,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 509,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 403,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sesame oil",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 21793,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 19674,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1183,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 936,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Mustard seeds",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2809,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2463,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 345,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Poppy seeds",
+    "country": "Unknown",
+    "growing_season": "Unknown",
+    "crop_duration_days": "Unknown",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2188,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1723,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 464,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Melon seed",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5184,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5087,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 56,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 41,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Seed cotton",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4029,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2282,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1306,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 440,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton seeds",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1332,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 755,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 432,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 146,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton lint",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9113,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5163,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2955,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 996,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton linters",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2602,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1474,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 844,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 284,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton-seed oil, refined",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3957,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2242,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1283,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 432,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton seed oilcake",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 860,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 487,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 279,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 94,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton, not carded or combed",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9113,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5163,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2955,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 996,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton yarn waste (including thread waste)",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1677,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 950,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 544,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 183,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Garneted stock of cotton",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2517,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1426,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 816,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 275,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton, carded or combed",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9460,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5359,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 3067,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1034,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cotton fabric, finished textile",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9982,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5384,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 3253,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1344,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Linseed",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5168,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4730,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 268,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 170,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Linseed oil, refined",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 9415,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 8618,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 488,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 310,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Linseed oilcake",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3077,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2816,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 160,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 101,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Hempseed",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3685,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3257,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      }, 
+      "blue_water_footprint": {
+        "value": 12,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 417,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cabbages and other brassicas",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 280,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 181,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 26,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 73,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Artichokes",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 818,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 478,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 242,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 98,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Asparagus",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2150,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1524,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 119,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 507,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Lettuce",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 237,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 133,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 28,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 77,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Spinach",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 292,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 118,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 14,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 160,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomatoes",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 214,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 108,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 63,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 43,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomato juice unfermented & not spirited",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 267,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 135,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 79,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 53,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomato juice, concentrated",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1069,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 539,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 316,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 213,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomato paste",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 855,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 431,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 253,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 171,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomato ketchup",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 534,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 270,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 158,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 107,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomato puree",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 713,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 360,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 211,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 142,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Peeled tomatoes",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 267,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 135,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 79,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 53,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tomato, dried",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4276,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2157,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1265,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 853,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Cauliflowers and broccoli",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 285,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 189,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 21,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 75,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Brussels sprouts",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 285,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 189,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 21,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 75,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Pumpkins, squash and gourds",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 336,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 228,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 24,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 84,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cucumbers and gherkins",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 353,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 206,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 42,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 105,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Eggplants (aubergines)",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 362,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 234,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 33,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 95,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Chillies and peppers, green",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 379,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 240,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 42,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 97,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Onions (incl. shallots), green",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 272,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 176,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 44,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 51,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Onions, dry",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 345,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 192,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 88,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 65,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Garlic",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 589,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 337,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 81,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 170,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Garlic powder",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2265,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1297,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 313,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 655,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Beans, green",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 561,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 320,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 54,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 188,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Peas, green",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 595,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 382,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 63,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 150,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "String beans",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 547,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 301,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 104,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 143,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Carrots and turnips",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 195,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 106,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 28,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 61,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Okra",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 576,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 474,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 36,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 65,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Maize, green",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 700,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 455,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 157,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 88,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Carobs",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 5594,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 4557,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 334,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 703,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Bananas",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 790,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 660,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 97,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 33,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Plantains",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1602,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1570,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 27,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 6,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Oranges",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 560,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 401,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 110,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 49,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Orange juice",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1018,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 729,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 199,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 90,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tangerines, mandarins, clement",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 748,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 479,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 118,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 152,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Lemons and limes",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 642,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 432,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 152,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 58,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Grapefruit",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 506,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 367,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 85,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 54,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Apples, fresh",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 822,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 561,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 133,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 127,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Cherries",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1604,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 961,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 531,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 112,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Peaches and nectarines",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 910,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 583,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 188,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 139,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Plums and sloes",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2180,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1570,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 188,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 422,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Strawberries",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 347,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 201,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 109,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 37,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Raspberries",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 413,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 293,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 53,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 67,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Gooseberries",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 526,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 487,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 8,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 31,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Currants",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 499,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 457,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 19,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 23,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Blueberries",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 845,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 341,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 334,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 170,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cranberries",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 276,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 91,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 108,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 77,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Grapes",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 608,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 425,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 97,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 87,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Grapes, dried",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2433,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1700,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 386,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 347,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Grapefruit juice",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 675,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 490,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 114,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 71,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Grape wines, sparkling",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 869,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 607,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 138,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 124,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Watermelons",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 235,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 147,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 25,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 63,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Figs",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3350,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1527,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1595,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 228,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Mangoes, mangosteens, guavas",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1800,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1314,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 362,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 124,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Avocados",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1981,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 849,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 283,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 849,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Pineapples",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 255,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 215,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 9,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 31,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Pineapple juice",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1273,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1075,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 45,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 153,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Dates",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2277,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 930,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1250,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 98,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cashew apple",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3793,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3638,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 34,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 121,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Kiwi fruit",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 514,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 307,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 168,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 38,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Papayas",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 460,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 399,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 40,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 21,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coffee, green",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 15897,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 15249,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 116,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 532,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coffee, roasted",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 18925,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 18153,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 139,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 633,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cocoa beans",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 19928,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 19745,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 4179,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cocoa paste",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 24238,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 24015,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 5218,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cocoa butter, fat and oil",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 33938,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 33626,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 7305,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cocoa powder",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 15636,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 15492,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 3141,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Chocolate",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 17196,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 16805,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 198,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 193,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Green and black tea",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 8856,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 7232,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 898,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 726,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Hop cones",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4065,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2382,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 269,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1414,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Hop extract",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 16259,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 9528,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1077,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 5654,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Pepper of the genus Piper",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 7611,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6540,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 467,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 604,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Chillies and peppers, dry",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 7365,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5869,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1125,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 371,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Vanilla beans",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 10651,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 86,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 392,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 39048,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cinnamon (canella)",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 23011,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 14853,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 41632,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 15526,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Cloves",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 61205,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 59834,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 30134,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1341,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Nutmeg, mace and cardamoms",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 34319,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 30683,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 2623,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1014,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Anise, badian, fennel, coriander",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 8280,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5369,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1865,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1046,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Coriander seeds",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 8280,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 5369,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 1865,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 1046,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Ginger",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 1657,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1525,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 40,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 92,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+
+  {
+    "crop_name": "Peppermint",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 288,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 206,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 63,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 19,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Flax fibre and tow",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3481,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2637,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 443,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 401,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Flax fibre, otherwise processed but not spun",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 3783,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2866,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 481,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 436,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Flax tow and waste",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 767,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 581,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 98,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 88,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Hemp fibre and tow",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2447,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 1824,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 624,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "True hemp fibre processed but not spun",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2719,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2026,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 0,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 693,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Jute and other textile bast fibres",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2605,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2356,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 33,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 217,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Ramie",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 4507,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 3712,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 201,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 595,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sisal",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 7041,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6112,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 708,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 222,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Sisal textile fibres processed but not spun",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 7824,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6791,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 787,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 246,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Agave fibres",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 6549,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 6434,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 9,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 106,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Manila fibre (Abaca)",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 20388,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 19376,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 246,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 766,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Abaca fibre, processed but not spun",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 22654,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 21529,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 273,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 851,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Tobacco, unmanufactured",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 2925,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 2021,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 205,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 700,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  },
+  {
+    "crop_name": "Natural rubber",
+    "water_footprint_components": {
+      "total_water_footprint": {
+        "value": 13748,
+        "unit": "liters/kg grain"
+      },
+      "green_water_footprint": {
+        "value": 12964,
+        "unit": "liters/kg grain",
+        "description": "Rainwater consumed"
+      },
+      "blue_water_footprint": {
+        "value": 361,
+        "unit": "liters/kg grain",
+        "description": "Irrigation water consumed"
+      },
+      "grey_water_footprint": {
+        "value": 422,
+        "unit": "liters/kg grain",
+        "description": "Water needed to dilute pollutants"
+      }
+    }
+  }
+]
