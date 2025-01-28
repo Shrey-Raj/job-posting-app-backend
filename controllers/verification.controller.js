@@ -39,7 +39,7 @@ export const sendVerificationEmail = asyncHandler(async (req, res) => {
   await user.save();
 
   // Verification URL
-  const verificationUrl = `${process.env.BASE_URL}/api/v1/verification/verifyemail/${token}`;
+  const verificationUrl = `${process.env.SERVER_BASE_URL}/api/v1/verification/verifyemail/${token}`;
 
   // Send the verification email
   await transporter.sendMail({
@@ -47,7 +47,7 @@ export const sendVerificationEmail = asyncHandler(async (req, res) => {
     to: email,
     subject: "Email Verification",
     html: `<p>Click the link below to verify your email:</p>
-           <a href="${verificationUrl}">${verificationUrl}</a>`,
+           <a href="${verificationUrl}">VERIFY EMAIL</a>`,
   });
 
   return res.status(200).json(
