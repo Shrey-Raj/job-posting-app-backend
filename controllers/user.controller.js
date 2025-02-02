@@ -25,6 +25,8 @@ const registerUser = asyncHandler(async (req, res) => {
 
   const { password: removedPassword, ...userWithoutPassword } = user.toObject();
 
+  console.log("New user saved successfully!"); 
+
   return res.status(201).json(
     new ApiResponse(
       200,

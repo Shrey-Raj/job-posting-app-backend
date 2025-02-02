@@ -2,11 +2,12 @@ import { Job } from "../models/job.model.js";
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
+import nodemailer from 'nodemailer'
 
 const createJob = asyncHandler(async (req, res) => {
-  const { title, description, experienceLevel, endDate } = req.body;
+  const { title, description, experienceLevel, endDate , email } = req.body;
 
-  if (!title || !description || !experienceLevel || !endDate) {
+  if (!title || !description || !experienceLevel || !endDate || !email) {
     throw new ApiError(400, "All fields are required");
   }
 
@@ -15,12 +16,13 @@ const createJob = asyncHandler(async (req, res) => {
     description,
     experienceLevel,
     endDate,
+    email
   });
 
   return res.status(201).json(
     new ApiResponse(
       200,
-      { job },
+      { _id:job._id, job },
       "Job created successfully!"
     )
   );
@@ -88,12 +90,18 @@ const sendJobEmail = asyncHandler(async (req,res) => {
 
   const userList = req.body.userList; 
 
-  // Ensure the user list is not empty
   if (!userList || userList.length === 0) {
     throw new ApiError(400, "No users to send the email to.");
   }
 
-  // Create email content
+  const transporter = nodemailer.createTransport({
+    service: "Gmail",
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.EMAIL_PASSWORD,
+    },
+  });
+
   const emailContent = `
     <h2>Job Opportunity</h2>
     <p><strong>Title:</strong> ${title}</p>
@@ -104,16 +112,42 @@ const sendJobEmail = asyncHandler(async (req,res) => {
 
   // Send emails to all users
   const sendEmailPromises = userList.map(async (user) => {
-    return transporter.sendMail({
-      from: process.env.EMAIL,
-      to: user.email,
-      subject: `New Job: ${title}`,
-      html: emailContent,
-    });
+    try {
+      const info = await transporter.sendMail({
+        from: process.env.EMAIL,
+        to: user.email,
+        subject: `New Job: ${title}`,
+        html: emailContent,
+      });
+      console.log(`Email sent successfully to: ${user.email}`); 
+      return { email: user.email, status: 'success', info }; 
+    } catch (error) {
+      console.error(`Failed to send email to: ${user.email}`, error.message);
+      return { email: user.email, status: 'failed', error: error.message }; 
+    }
   });
-
-  // Await all email sending promises
-  await Promise.all(sendEmailPromises);
+  
+  const results = await Promise.allSettled(sendEmailPromises);
+  
+  const sentEmails = [];
+  const failedEmails = [];
+  
+  results.forEach((result) => {
+    if (result.status === 'fulfilled') {
+      const { email, status, info } = result.value;
+      if (status === 'success') {
+        sentEmails.push({ email, info });
+      } else {
+        failedEmails.push({ email, error: result.value.error });
+      }
+    } else {
+      failedEmails.push({ email: 'unknown', error: result.reason.message });
+    }
+  });
+  
+  console.log('Summary:');
+  console.log('Sent Emails:', sentEmails);
+  console.log('Failed Emails:', failedEmails);
 
   return {
     success: true,
